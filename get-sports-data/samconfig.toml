@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sports-api"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-3050sef3zwge"
+s3_prefix = "sports-api"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
